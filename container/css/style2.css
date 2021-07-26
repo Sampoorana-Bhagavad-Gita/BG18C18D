@@ -1,0 +1,141 @@
+#title{
+    background-size: cover;
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+ text-align: center;
+    color:#fff;
+
+  }
+  #info{
+    padding:10% 15%;
+  background-color:#A6F8EA;
+
+  }
+  
+  h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:3.5rem;
+    line-height:1.5;
+    color:#F1C40F;
+
+  }
+  h2{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  h3{
+    color:#797D7F;
+  }
+  .moveleft{
+    animation-name:movetoleft;
+animation-duration:3s;
+  }
+  .moveright{
+    animation-name:movetoright;
+animation-duration:3s;
+  }
+  .moveup{
+    animation-name:movetotop;
+animation-duration:3s;
+  }
+.main-text{
+  margin-top:20%;
+  margin-left:20px;
+}
+  .text{
+    font-size:30px;
+    color:#000;
+  }
+
+/*navigation bar*/
+.navbar-brand{
+  font-family:"ubuntu";
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+  margin-top:0;
+}
+.nav-item{
+  padding:18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:'ubuntu';
+}
+/*download buttons*/
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.isckon-img{
+  height:100px;
+  width:100px;
+
+}
+.title-image {
+  width: 70%;
+  height:75%;
+  margin-right:2%;
+  margin-top:8%;
+    position:relative;
+border-radius: 100%;
+}
+
+.zoom{
+  height:60px;
+  width:60px;
+}
+span{
+  color:#000;
+  font-size: 23px;
+  font-weight:bold;
+}
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .main-text{
+    margin-top:10px;
+  }
+
+  .isckon-img{
+    height:100px;
+    width:100px;
+    justify-content: center;
+  }
+.title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.info-image {
+  margin-top:30px;
+  margin-left:5px;
+  width:85%;
+  height:85%;
+  position:relative;
+  border-radius:100%;
+}
+@keyframes movetoleft{
+ 0%{
+ transform:translateX(-120px);
+ opacity:0;}
+ 100%{ transform:translateX(0);
+ opacity:1;
+ }}
+ @keyframes movetoright{
+ 0%{
+ transform:translateX(120px);
+ opacity:0;}
+ 100%{ transform:translateX(0);
+ opacity:1;
+ }}
+ @keyframes movetotop{
+ 0%{
+ transform:translateY(120px);
+ opacity:0;}
+ 100%{ transform:translateY(0);
+ opacity:1;
+ }}
