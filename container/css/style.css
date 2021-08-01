@@ -306,6 +306,36 @@ body {
   background: linear-gradient(to bottom,rgba(20, 5, 223, 0.9),rgba(5, 172, 223, 0.9));
   color: white;
 }
+/* starting of Activities section */
+#actv_section
+{ 
+  background-color: rgb(243, 239, 239);
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: .1s;
+}
+.card:hover{
+  text-shadow: 2px 2px 5px rgba(92, 62, 230,.2);
+  box-shadow: 0 32px 64px 0 rgba(92, 62, 230, 0.2);
+}
+#actv_section .Actv-100 .card .shadow-lg{
+  color: #03ef0f;
+}
+#actv_section .Actv-100 a p{
+  text-decoration: none;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+}
+#actv_section .Actv-100 .card a p:hover{
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+color: #A6F;
+}
+#actv_section .Actv-100 a {
+  color: black;
+  text-decoration: none;
+}
+/* ending of Activities section */
 
 /*--------------------------------------------------------------
 # Footer
@@ -403,3 +433,42 @@ body {
   text-decoration: none;
   font-size: 15px;
 }
+
+/* starting of copyright section */
+#footer .f-100
+{
+  color:whitesmoke;
+}
+#footer .f-100 hr{
+  color: aqua;
+  size: 1px;
+
+}
+#footer .f-100 ul li{
+  list-style: none;
+  text-decoration: none;
+}
+#footer .f-100 ul li a{
+  font-family: "Raleway", sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+}
+#footer .f-100 ul li a:hover{
+  color: aqua;
+  font-size: 15px;
+}
+/* ending of copyright section */
+
+/* starting of course section */
+.course-section .course-100 .card .card-body
+   { 
+       color: black;
+       box-shadow :0 32px 64px 0 rgba(92, 62, 230, 0.2);
+   }
+
+   .course-section .course-100 .card:hover{
+
+       text-shadow: 2px 2px 5px rgba(255, 15, 243, 0.2);
+       
+   }
+/* ending of course section */
