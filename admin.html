@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- container css file -->
+    <link rel="stylesheet" href="container/css/style.css">
+    <link rel="stylesheet" href="container/js/main.js">
+
+    <!-- BOOTSTRAP LINK  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- link form css folder  -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Us</title>
+    <style>
+        .contact-section {
+            background-color: grey;
+            color: whitesmoke;
+        }
+
+        .navbar-custom {
+            background-color: gray;
+        }
+
+        .scrollable {
+            height: 10px;
+            overflow: scroll;
+        }
+
+        .my-custom-scrollbar {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .table-wrapper-scroll-y {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- starting of navbar in about us  -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-dark font-weight-bold" href="#">Complete Bhagavad Gita</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Activities
+                        </a>
+                        <ul class="dropdown-menu navBar-link" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item link1" href="#">Retrate</a>
+                            </li>
+                            <li>
+                            <li>
+                                <a class="dropdown-item link1" href="onlinecourses.html">Course</a>
+                            </li>
+
+                            <li><a class="dropdown-item" href="meditation.html">Meditation</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact_us.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ending of navbar in about us page  -->
+
+
+    <!-- starting of Courses section -->
+    <section class="contact-section py-5">
+        <div class="container text-center ">
+            <h1>Hello Admin !!</h1>
+            <h5>I Hope you always be happy and do chanting</h5>
+            <p>Hare krishan</p>
+        </div>
+    </section>
+    <!-- ending of course section -->
+    <!-- new table -->
+    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+
+        <table class="table table-bordered table-striped mb-0">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <!-- ending of new table -->
+
+    <!-- Tables section for all user data -->
+    <section class="table-section py-5" style="background-color: rgb(223, 226, 43);">
+        <div class="container">
+            <h3 class="text-center">User Information</h3>
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                <table class="table scrollabel">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Comment</th>
+                        </tr>
+                    </thead>
+                    <tbody data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollabel">
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>30-07-2021</td>
+                            <td>18:34</td>
+                            <td>hari</td>
+                            <td>@mdo</td>
+                            <td>hello</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>@fat</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>@twitter</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- ending of tables section -->
+
+
+
+    <!-- starting of copyright section -->
+    <footer id="footer">
+        <div class="container">
+            <!-- <h3>Bhagvad Gita Session</h3> -->
+            <div class="row f-100">
+                <div class="col-md-4">
+                    <h3 class="text-title">Address</h3>
+                    <hr>
+                    <ul>
+                        <li>ISKCON Juhu, Hare Krishna Land</li>
+                        <li>Raipur - 492010,</li>
+                        <li>Chhattisgarh, India</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-title">Contact Us</h3>
+                    <hr>
+                    <ul>
+                        <li>Contact: 7777044468, 9301760263</li>
+                        <li>Email: harekrishana@gmail.com</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" class="twitter"><img
+                                src="https://img.icons8.com/fluent/48/000000/twitter.png" /></a>
+                        <a href="#" class="facebook"><img
+                                src="https://img.icons8.com/color/48/000000/facebook.png" /></a>
+                        <a href="https://www.instagram.com/" class="instagram"><img
+                                src="https://img.icons8.com/color/48/000000/instagram-new.png" /></a>
+                        <a href="#" class="google-plus"><img
+                                src="https://img.icons8.com/color/48/000000/google-plus-squared.png" /></i></a>
+                        <a href="#" class="linkedin"><img
+                                src="https://img.icons8.com/fluent/48/000000/linkedin.png" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="title">Useful Links</h3>
+                    <hr>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Latest event</a></li>
+                        <li><a href="aboutUs.html">About us</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    &copy; Copyright <strong><span style="color: #B5FFFC;">2021</span></strong>. All Rights Reserved
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- ending of copyright footer -->
+
+
+</body>
+
+
+</html>
