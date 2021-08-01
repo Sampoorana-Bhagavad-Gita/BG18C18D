@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <!-- owl file import -->
+    <link rel="stylesheet" href="container/owlfile/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="container/owlfile/css/owl.theme.default.css">
+    <!-- ending of owl file -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,135 +24,208 @@
     <!-- link form css folder  -->
 
     <link rel="stylesheet" href="css/style.css">
-    <title>TeamMember's</title>
+    <title>About_Us</title>
+    <style>
+        .about-section .card {
+            box-shadow: none;
+        }
+    </style>
 </head>
-<style>
-    .section {
-        height: 90vh;
-        width: 100%;
-        background: linear-gradient(to right, rgba(35, 39, 39, 0.9), rgba(129, 231, 12, 0.3));
-        background: linear-gradient(to right, rgba(0, 0, 0, .9), rgb(0, 0, 0, .4)), url(https://www.portea.com/static/bedcb297c5d4c797b7d9c7104968931b/07551/home.webp);
-        background-size: cover;
-        color: white;
-        font-size: larger;
-    }
-
-    .service-3 {
-        background-color: whitesmoke;
-        color: black;
-    }
-</style>
 
 <body>
-
     <!-- starting of navbar in about us  -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-dark font-weight-bold" href="#">Complete Bhagavad Gita</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Activities
+                        </a>
+                        <ul class="dropdown-menu navBar-link" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item link1" href="onlinecourses.html">Course</a>
+                            </li>
+                            <li>
+                            <li>
+                                <a class="dropdown-item link1" href="campus.html">Campus</a>
+                            </li>
+
+                            <li><a class="dropdown-item" href="meditation.html">Meditation</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact_us.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- ending of navbar in about us page  -->
+
+    <section class="about-section py-5">
+        <h2 class="font-weight-bold mx-5">About us</h2>
+        <hr style="width: 100px;" class="mx-5">
+        <div class="container">
+            <!-- owl import here -->
+            <div class="owl-par">
+                <div class="owl-carousel">
+                    <div>
+                        <div class="card mx-2 border-0">
+                            <div class="card-body text-center">
+                                <img src="container/image/Mithilapati Pr. ji2.jpeg" alt="" style="height: 200px;">
+                                <h4>H.G. Mithilapati Das</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nulla, inventore
+                                    error obcaecati dolores sint, distinctio odit quas quis unde suscipit tempore.
+                                    Labore, ratione velit. Aperiam tempora eos deleniti corporis.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="card mx-2 border-0">
+                            <div class="card-body text-center">
+                                <img src="container/image/Swami-Prabhupada.jpg" alt=""
+                                    style="height: 200px;">
+                                <h4>A.C. Bhaktivedanta Swami Prabhupada</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nulla, inventore
+                                    error obcaecati dolores sint, distinctio odit quas quis unde suscipit tempore.
+                                    Labore, ratione velit. Aperiam tempora eos deleniti corporis.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="card mx-2 border-0">
+                            <div class="card-body text-center">
+                                <img src="container/image/Aditya pr..jpeg" alt=""
+                                    style="height: 200px;">
+                                <h4>H.G. Aditya Ram Das</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nulla, inventore
+                                    error obcaecati dolores sint, distinctio odit quas quis unde suscipit tempore.
+                                    Labore, ratione velit. Aperiam tempora eos deleniti corporis.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- ending of owl  -->
+        </div>
+    </section>
 
 
     <!-- starting of About us section -->
-    <section class="service-3 py-5">
-        <div class="container text-center">
-            <h1 class="py-5" style="color: rgb(13, 160, 228);">About Us</h1>
-            <h2 style="color:rgb(13, 160, 228) ;">CHIRAG – HEALING AT HOME</h2>
-            <p class="fw-light py-4">Portea Medical delivers quality care with compassion. We
-            </p>
-            <!--starting border-line  -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-            <div class="border-top my-3"></div>
-            <!-- ending of border-line  -->
-            <p class="fw-light py-4">With Chirag, you can be sure that you will receive
-            </p>
-            <p class="fw-light">Chirag Medical’s clinical procedures were developed in consultation with leading home
-                healthcare
-            </p>
-            <h3 class="py-5 h3-2">Management Team</h3>
-            <div class="row">
-                <div class="col-md-4 py-2">
-                    <!-- it is first card -->
-                    <div class="card">
-                        <img style="height: 350px;"
-                            src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/06/UP3.png?fit=150%2C150&ssl=1"
-                            alt="">
-                        <div class="card-body">
-                            <i class="fa fa-apple" style="font-size:48px;color:red"></i>
-                            <h2>Naveen Narayanan</h2>
-                            <p class="fw-light"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-                                deleniti, perferendis
-                                officia cum dolorum expedita quidem nemo, placeat, perspiciatis doloribus vitae sint rem
-                                necessitatibus ipsa velit alias molestiae quas officiis!</p>
 
-                        </div>
-                    </div>
-                </div>
-                <!-- it is second card -->
-                <div class="col-md-4 py-1">
-                    <div class="card">
-                        <img style="height: 350px;"
-                            src="https://www.portea.com/static/e6df352fae930966752486a0fa1b9b01/cff51/DR-VISHAL.png"
-                            alt="">
-                        <div class="card-body">
-                            <i class="fa fa-android" style="font-size:48px;color:red"></i>
-                            <h2>Dr. Vishal Sehgal</h2>
-                            <p class="fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-                                deleniti, perferendis
-                                officia cum dolorum expedita quidem nemo, placeat, perspiciatis doloribus vitae sint rem
-                                necessitatibus ipsa velit alias molestiae quas officiis!</p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- it is third card -->
-                <div class="col-md-4 py-1">
-                    <div class="card">
-                        <img style="height: 350px;"
-                            src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/06/UP3.png?fit=150%2C150&ssl=1"
-                            alt="">
-                        <div class="card-body">
-                            <i class="fa fa-amazon" style="font-size:48px;color:red"></i>
-                            <h2>Sachin Verma</h2>
-                            <p class="fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-                                deleniti, perferendis
-                                officia cum dolorum expedita quidem nemo, placeat, perspiciatis doloribus vitae sint rem
-                                necessitatibus ipsa velit alias molestiae quas officiis!</p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- end -->
-
-            </div>
-        </div>
-        </div>
-    </section>
     <!-- ending of ABOUT US section -->
-    <!-- ======= Footer (copy Right section) ======= -->
+    <!-- starting of copyright section -->
     <footer id="footer">
         <div class="container">
-            <h3>Bhagvad Gita Session</h3>
-            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
-                placeat.</p>
-            <div class="social-links">
-                <a href="#" class="twitter"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" /></a>
-                <a href="#" class="facebook"><img src="https://img.icons8.com/color/48/000000/facebook.png" /></a>
-                <a href="https://www.instagram.com/" class="instagram"><img
-                        src="https://img.icons8.com/color/48/000000/instagram-new.png" /></a>
-                <a href="#" class="google-plus"><img
-                        src="https://img.icons8.com/color/48/000000/google-plus-squared.png" /></i></a>
-                <a href="#" class="linkedin"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png" /></a>
-            </div>
-            <div class="copyright">
-                &copy; Copyright <strong><span style="color: #B5FFFC;">2021</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">Sunil | Roshan</a>
+            <!-- <h3>Bhagvad Gita Session</h3> -->
+            <div class="row f-100">
+                <div class="col-md-4">
+                    <h3 class="text-title">Address</h3>
+                    <hr>
+                    <ul>
+                        <li>ISKCON Juhu, Hare Krishna Land</li>
+                        <li>Raipur - 492010,</li>
+                        <li>Chhattisgarh, India</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-title">Contact Us</h3>
+                    <hr>
+                    <ul>
+                        <li>Contact: 7777044468, 9301760263</li>
+                        <li>Email: harekrishana@gmail.com</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" class="twitter"><img
+                                src="https://img.icons8.com/fluent/48/000000/twitter.png" /></a>
+                        <a href="#" class="facebook"><img
+                                src="https://img.icons8.com/color/48/000000/facebook.png" /></a>
+                        <a href="https://www.instagram.com/" class="instagram"><img
+                                src="https://img.icons8.com/color/48/000000/instagram-new.png" /></a>
+                        <a href="#" class="google-plus"><img
+                                src="https://img.icons8.com/color/48/000000/google-plus-squared.png" /></i></a>
+                        <a href="#" class="linkedin"><img
+                                src="https://img.icons8.com/fluent/48/000000/linkedin.png" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="title">Useful Links</h3>
+                    <hr>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Latest event</a></li>
+                        <li><a href="aboutUs.html">About us</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    &copy; Copyright <strong><span style="color: #B5FFFC;">2021</span></strong>. All Rights Reserved
+                </div>
             </div>
         </div>
-    </footer><!-- End Footer -->
+    </footer>
+    <!-- ending of copyright footer -->
+
+    <!-- js query -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="container/owlfile/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+
+                dots: true,
+                autoplay: true,
+                smartSpeed: 250,
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+
+        });
+    </script>
 
 
 </body>
