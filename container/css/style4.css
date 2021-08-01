@@ -1,0 +1,30 @@
+#middle{
+padding:20px;
+background-color:#F8F4E1;
+
+}
+hr{
+  background-color:red;
+margin-left:5px;
+width:100px;
+line-height:1.5;
+   height:4px;
+
+
+}
+.frame{
+
+box-shadow: 0 7px 10px 0 rgba(0,0,0,0.6),0 8px 25px 0 rgba(0,0,0,0.6);
+  border:1px solid black;
+
+    text-align:center;
+}
+.text{
+  padding:50px 0;
+}
+/* .photo{
+  width:300px;
+  height:auto;
+  background-size:cover;
+  margin-bottom:0;
+ } */
